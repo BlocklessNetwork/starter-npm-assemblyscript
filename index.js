@@ -13,7 +13,7 @@ const basepkg = {
     "build:debug": "npm run clean; asc index.ts --target debug",
   },
   dependencies: {
-    "@blockless/sdk": "^1.0.0",
+    "@blockless/sdk": "^1.0.0-preview",
     "as-wasi": "^0.4.6",
     assemblyscript: "^0.20.10",
     wasi: "^0.0.6",
